@@ -1,0 +1,17 @@
+//abstrakte Oberklasse
+public abstract class Person {
+	
+	//Attributen
+	public String vorname;
+	public String nachname;
+	
+	//Konstruktor
+	Person(String vorname, String nachname){
+		this.vorname = vorname;
+		this.nachname = nachname;
+	}
+	
+	//abstrakte Methode
+	public abstract String Adresse();
+	
+}
