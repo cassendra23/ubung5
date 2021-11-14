@@ -1,0 +1,21 @@
+public class Kunde extends Person {
+	
+	String einkauf;
+	String adresse;
+	
+	Kunde(String vorname, String nachname, String einkauf, String adresse){
+		super(vorname, nachname); //Vererbung von Konstruktor
+		this.einkauf = einkauf;
+		this.adresse = adresse;
+		
+	}
+	
+	public String einkauf() {
+		return einkauf;
+	}
+	
+	public String Adresse() {
+		return adresse;
+	}
+
+}
