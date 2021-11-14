@@ -1,0 +1,22 @@
+public class KundenDemo {
+
+	public static void main(String[] args) {
+		
+		//Instanzen
+		Kunde kunde1 = new Kunde("Jake", "Peralta", "Buch", "Auf'm Hennekamp 26");
+		Kunde kunde2 = new Kunde("Amy", "Santiago", "Ordner", "Brinckmannstrasse 13a");
+
+		//Ausgabe
+		System.out.println("Kunde 1: " + kunde1.vorname + " " + kunde1.nachname);
+		System.out.println("Lieferadresse: " + kunde1.Adresse());
+
+		System.out.println("Kunde 2: " + kunde2.vorname + " " + kunde2.nachname);
+		System.out.println("Lieferadresse: " + kunde2.Adresse());
+
+		System.out.println("\nKunde 1 kauft " + kunde1.einkauf);
+		System.out.println("Kunde 2 kauft " + kunde2.einkauf);
+
+
+	}
+
+}
